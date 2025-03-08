@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+	background: url('imagen3.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #8b5cf6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8b5cf6;
+    color: white;
+}
+td img {
+    width: 80px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d42d4;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+ul li a {
+    display: inline-block;
+    color: #ff4081;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #e91e63;
+}
+
+ul li a i {
+    margin-right: 8px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header h1 {
+    animation: fadeIn 1.5s ease-in-out;
+}
+section {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#bienvenida img {
+    width: 50%;  /* Reduce el tamaño al 50% del contenedor */
+    max-width: 400px; /* Máximo tamaño permitido */
+    display: block;  /* Evita espacios extra */
+    margin: 20px auto;  /* Centra la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+    animation: fadeIn 1.5s ease-in-out; /* Aplica la animación */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
